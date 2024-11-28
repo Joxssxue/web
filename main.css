@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a100ff;
+    text-align: center; /* Centra el contenido del body */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ .form-container {
+    background: rgba(90,245, 70, 0.7); /* Fondo blanco translúcido */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+}
+.form-control {
+    background: rgba(72, 80, 240, 0.5); /* Fondo semitransparente */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilo del botón */
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+nav {
+    background-color: #7300b7;
+    padding: 20px;
+}
+
+li {
+
+    list-style: none;
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra los divs hijos horizontalmente */
+    gap: 40px; /* Espacio entre las imágenes */
+}
+
+.contenedor div {
+    text-align: center; /* Centra los elementos dentro de cada div */
+}
+
+.contenedor img {
+    width: 300px; /* Ajusta el ancho según lo que necesites */
+    height: 300px; /* Ajusta la altura para mantener la proporción */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin distorsión */
+}
+.contenedorJ {
+    display: flex; /* Esto hace que las imágenes se alineen en una fila */
+    justify-content: space-between; /* Ajusta el espaciado entre las imágenes */
+    align-items: center; /* Alinea las imágenes verticalmente al centro */
+    gap: 10px; /* Espaciado entre las imágenes (puedes ajustar este valor) */
+    padding: 0 30px; /* Agrega un padding a los lados del contenedor para espacio adicional */
+}
+
+.contenedorJ img {
+    width: 300px; /* Ajusta el ancho de las imágenes */
+    height: 500px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente sin distorsionarse */
+}
+
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7300b7;
+    padding: 20px 10px;
+}
+
+footer div.copy {
+    color: black;
+}
+
+footer div.copy p {
+    padding: 15px 5px;
+    font-size: 20px;
+}
+/* Ordenar las imágenes en una fila y asegurarse de que tengan el mismo tamaño */
+.imagenes {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 10px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes pasen a la siguiente fila si es necesario */
+    padding: 20px 0;
+}
+
+.imagenes img {
+    width: 200px; /* Establece un ancho fijo para todas las imágenes */
+    height: auto; /* Mantiene la relación de aspecto original */
+    object-fit: cover; /* Asegura que las imágenes se ajusten bien dentro de su contenedor */
+}
+.redes a {
+    margin: 0 10px;
+    font-size: 24px; /* Cambia el tamaño de los íconos */
+    color: #FFFFFF; /* Cambia el color de los íconos */
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #f000ff; /* Cambia el color al pasar el cursor por encima */
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-box {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid rgba(98, 23, 122, 0.8); /* Borde blanco translúcido */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(105, 35, 295, 0.2); /* Color azul con 70% de opacidad */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button-box:hover {
+    transform: scale(1.1);
+    background-color: rgba(98, 23, 122, 0.8); /* Azul oscuro translúcido al pasar el mouse */
+}
